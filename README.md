@@ -9,7 +9,8 @@ To provide a similar experience as to what you get in Azure, where Azure Static 
 * A proxy to your API endpoints - available through Azure Functions Core Tools
 * A mock authentication and authorization server
 * Local routes and configuration settings enforcement
-[Set up local development for Azure Static Web Apps]([https://docs.microsoft.com/en-us/azure/static-web-apps/local-development)
+
+[Set up local development for Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/local-development)
 
 ## Configuration
 
@@ -19,9 +20,11 @@ Azure will auto-generate a domain name (e.g. black-stone-0c0b19f10.1.azurestatic
 ### Private Endpoint
 Configuring Static Web Apps with a private endpoint allows you to use a private IP address from your VNet. Once this link is created, your static web app is integrated into your VNet. As a result, your static web app is no longer available to the public internet, and is only accessible from machines within your Azure VNet.
 The private endpoint will expose 2 IP Addresses within your VNet, one for the production environment and one for any staging environments.
+
 [Configure private endpoint in Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/private-endpoint)
 
 ### Deployment Types
+
 [Preview environments in Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/preview-environments)
 
 Preview environments are automatically created when you open a pull request or when you configure your workflow to deploy changes from branches. Once the pull request (PR) is closed, the temporary environment disappears.
@@ -40,11 +43,14 @@ You can configure your pipeline to deploy all changes to a named environment. Th
 
 ### Deployment Token
 When you create a new Azure Static Web Apps site, Azure generates a token used to identify the application during deployment. During provisioning, this token is stored as a secret in the GitHub repository in the `AZURE_STATIC_WEB_APPS_API_TOKEN` repository secret.
+
 [Build configuration for Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/build-configuration?tabs=github-actions)
+
 [Reset deployment tokens in Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/deployment-token-management)
 
 ### Enterprise-Grade Edge
 Use Azure Static Web Apps enterprise-grade edge (Preview) to enable faster page loads, enhance security, and optimize reliability for your global applications. Enterprise edge combines the capabilities of Azure Static Web Apps, Azure Front Door, and Azure Content Delivery Network (CDN) into a single secure cloud CDN platform.
+
 [Enterprise-grade edge (Preview)](https://docs.microsoft.com/en-us/azure/static-web-apps/enterprise-edge?tabs=azure-portal)
 
 ## Limitations
