@@ -48,6 +48,10 @@ When you create a new Azure Static Web Apps site, Azure generates a token used t
 
 [Reset deployment tokens in Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/deployment-token-management)
 
+[GitHub Action for deploying to Azure Static Web Apps](https://github.com/Azure/static-web-apps-deploy)
+
+[Build configuration for Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/build-configuration?tabs=github-actions#build-and-deploy)
+
 ### Enterprise-Grade Edge
 Use Azure Static Web Apps enterprise-grade edge (Preview) to enable faster page loads, enhance security, and optimize reliability for your global applications. Enterprise edge combines the capabilities of Azure Static Web Apps, Azure Front Door, and Azure Content Delivery Network (CDN) into a single secure cloud CDN platform.
 
