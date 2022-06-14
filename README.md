@@ -53,6 +53,11 @@ Use Azure Static Web Apps enterprise-grade edge (Preview) to enable faster page 
 
 [Enterprise-grade edge (Preview)](https://docs.microsoft.com/en-us/azure/static-web-apps/enterprise-edge?tabs=azure-portal)
 
+### Authentication & Authorization
+Azure Static Web Apps uses the `/.auth` system folder to provide access to authorization-related APIs. By default, you have access to a series of pre-configured providers (e.g. Azure Active Directory, GitHub, Twitter), or the option to register a custom provider. To block a provider, you can create route rules to return a 404 status code for requests to the blocked provider-specific route.
+
+[Authentication and authorization for Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/authentication-authorization?tabs=invitations)
+
 ## Limitations
 
 ### Private Endpoint
@@ -62,3 +67,8 @@ Placing your application behind a private endpoint means your app is only availa
 Azure Static Web Apps is a global service. Your app's static assets are globally distributed. When you create your app, you select a region where the managed Azure Functions app is deployed. If you need your Functions app in a region that doesn't support managed functions, you can use the Bring your own Functions app feature with a Functions app you deploy separately.
 
 Static Web Apps are currently only available in the `westus2`, `centralus`, `eastus2`, `westeurope`, and `eastasia` regions. This may be due to where the where the (serverless) backend APIs can be hosted via Azure Function Apps (unverified).
+
+## References
+
+[Serverless Full-Stack Kickstart](https://github.com/Azure-Samples/azure-sql-db-fullstack-serverless-kickstart)
+Learn how to implement a fully working, end-to-end, full-stack solution using Azure Static Web Apps, Azure Functions and Azure SQL Serverless. In this session we’ll see and build together the simple (but not too simple!) To-Do list reference app, using Vue.js, CI/CD and more!
