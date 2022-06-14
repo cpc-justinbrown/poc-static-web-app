@@ -62,6 +62,8 @@ Azure Static Web Apps uses the `/.auth` system folder to provide access to autho
 
 [Authentication and authorization for Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/authentication-authorization?tabs=invitations)
 
+[Configure Azure Static Web Apps | Restricting access to entire application](https://docs.microsoft.com/en-us/azure/static-web-apps/configuration#restricting-access-to-entire-application)
+
 ## Limitations
 
 ### Private Endpoint
